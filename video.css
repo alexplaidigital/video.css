@@ -1,4 +1,4 @@
-	   #footer,
+#footer,
 #vidholder {
     position: relative
 }
@@ -93,6 +93,12 @@ body {
     height: 61px
 }
 
+.navbar-brand>img {
+    height: 100%;
+    display: inline;
+    margin-top: -25px
+}
+
 .navbar-brand>div {
     display: inline-block;
     padding-top: 5px;
@@ -113,18 +119,17 @@ body {
     box-shadow: -2px 2px 5px 0 rgba(199, 199, 199, 1)
 }
 
+.nav_menu ul,
+.wrapper {
+    margin-top: 0
+}
+
 #vidholder,
 .offer_body,
 .offer_description,
 .offer_description img {
     margin-left: auto;
     margin-right: auto
-}
-
-.headline,
-.nav_menu ul,
-.wrapper {
-    margin-top: 0
 }
 
 .nav_menu li>a {
@@ -155,7 +160,15 @@ body {
     margin-bottom: 25px
 }
 
+section {
+    background-image: url(https://s3.amazonaws.com/claycloud/TNT/w0/item/1/img/background1.jpg)!important;
+    background-size: 100% 1500px;
+    background-repeat: no-repeat;
+    background-color: #edf5f7!important
+}
+
 .offer_info {
+    margin-top: 60px;
     margin-bottom: 80px;
     background: #edf5f7;
     padding-left: 10px;
@@ -185,6 +198,7 @@ body {
 }
 
 .headline {
+    margin-top: 0;
     padding-bottom: 0!important
 }
 
@@ -192,26 +206,9 @@ body {
     color: #000!important
 }
 
-.navbar-brand>img {
-    height: 100%;
-    display: inline;
-    margin-top: -25px
-}
-
-section {
-    background-image: url(https://d1257onc1x9f0m.cloudfront.net/w0/item/1/img/background1.jpg)!important;
-    background-size: 100% 1500px;
-    background-repeat: no-repeat;
-    background-color: #edf5f7!important
-}
-
-.offer_info {
-    margin-top: 60px
-}
-
 #slide_player {
-    width: 98%;
-    max-width: 1150px
+    width: 90%;
+    max-width: 900px
 }
 
 #vidholder,
@@ -233,19 +230,6 @@ section {
     }
     #slide_player p {
         font-size: 52px!important
-    }
-}
-
-@media(min-width:991px) {
-    #slide_displayer_holder,
-    #slide_player {
-        height: 650px!important
-    }
-    #slide_player p {
-        font-size: 52px!important
-    }
-    #slide_displayer {
-        padding: 70px
     }
 }
 
